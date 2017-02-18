@@ -1,0 +1,157 @@
+#content-left{
+	float: left;
+	width: 17%;
+	background-color:black;
+	height: 80%;
+	color: white;
+}
+#main{
+	float: right;
+	width: 83%;
+	background-color:black;
+}
+#ul1{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.icons{
+	width: 80px;
+	height: 80px;
+	border-radius: 500px; 
+	margin-left:40px;
+}
+li{
+	list-style: none;
+}
+h4{
+	letter-spacing: 3px;
+	text-align: center;
+	color:white;
+	text-shadow: 0 0 0.1em white,0 0 0.2em blue,0 0 0.3em blue,0 0 0.4em blue;
+}
+#bgi{
+	background-image:url(images/bgi.jpg); 
+	height: 500px;
+}
+#bgi2{
+	background-color: black;
+	height: 725px;
+}
+img{
+	width: 200px;
+	height: 200px;
+	margin-bottom:30px;
+}
+img.icons:hover{
+	opacity: 0.5;
+}
+#bgi3{
+	background-color:grey;
+	height: 405px;
+}
+.introduction{
+	letter-spacing: 5px;
+	width: 70%;
+	color: white;
+	text-shadow:0 0 0.1em white,0 0 0.1em white,0 0 0.1em yellow,0 0 0.1em green,0 0 0.1em yellow,0 0 0.1em green;
+}
+h3{
+	font-size: 40px;
+	color: white;
+	text-decoration: underline;
+}
+.PAddress,.SocialMedia{
+	margin-left: 25px;
+	color: white;
+	font-size: 20px;
+	text-decoration:underline;
+}
+.sMedia{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-color: black;
+	border-radius: 40px;
+}
+.sMedia:hover{
+	opacity:0.5;
+}
+.title{
+	font-size: 20px;
+	font-style: arial;
+	text-shadow: 0 0 0.1em white,0 0 0.2em blue,0 0 0.3em blue,0 0 0.4em blue;
+
+}
+.Al{
+	margin: 5px;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	z-index: 1;
+}
+#ContentTop{
+	width: 83%;
+	float: left;
+	padding-top: 30px;
+	margin-left: 0;
+	height:610px
+}
+.AlbertLeft{
+	width: 49%;
+	float: left;
+	padding-top: 30px;
+	margin-left: 0;
+}
+.Al:hover{
+	opacity:0.5;
+}
+/*css for ALbert.html*/
+.topPart{
+	background-color:black;
+	width:100%;
+	height: 620px
+}
+#name{
+	font-size: 30px;
+	position: relative;
+	top: 15px;
+	text-decoration: underline;
+	color: white;
+	text-shadow: 0 0 0.1em white,0 0 0.2em yellow,0 0 0.3em green,0 0 0.4em green;
+}
+.leftSide{
+	float:left;
+	width: 500px;
+}
+.Asplit, .Asplit1{
+	width:150px;
+	height: 150px
+}
+.rightSide{
+	float: right;
+	color: white;
+	font-size: 16px
+}
+#DidyouKnow{
+	color:yellow;
+	margin-right: 70px;
+	text-decoration: underline;
+	text-shadow:0 0 0.1em white,0 0 0.2em yellow,0 0 0.3em yellow,0 0 0.4em yellow;
+}
+
+.Quote1{
+	position:absolute;
+	color: white;
+	top: 100px;
+	left:50px;
+	visibility: visible;
+	opacity: 1;
+}
+.Asplit1:hover .Quote1{
+	opacity: 0.5;
+	visibility: visible;
+	position: absolute;
+}
+
+
