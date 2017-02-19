@@ -167,4 +167,7 @@ h3{
 	height: 80px;
 	border-radius: 40%;
 }
+.insta:hover{
+	opacity: 0.5;
+}
 
