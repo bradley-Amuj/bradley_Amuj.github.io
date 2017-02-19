@@ -47,8 +47,8 @@ img.icons:hover{
 	opacity: 0.5;
 }
 #bgi3{
-	background-color:grey;
-	height: 405px;
+	background-color:black;
+	height: 395px;
 }
 .introduction{
 	letter-spacing: 5px;
@@ -153,5 +153,18 @@ h3{
 	visibility: visible;
 	position: absolute;
 }
-
+.reach{
+	text-align: center;
+	margin-right: 20px;
+}
+.Email{
+	color: white;
+	font-size:17px;
+	font-family: monospace;
+}
+.insta{
+	width: 80px;
+	height: 80px;
+	border-radius: 40%;
+}
 
