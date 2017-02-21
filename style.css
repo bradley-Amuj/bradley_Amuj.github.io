@@ -38,6 +38,15 @@ h4{
 	background-color: black;
 	height: 725px;
 }
+.flip{
+	width: 220px;
+	height: 210px;
+	margin-right:150px;
+	margin-bottom: 70px;
+	transition: all 1.5s ease;
+	transform-style: preserve-3d;
+	position: relative;
+}
 img{
 	width: 200px;
 	height: 200px;
@@ -170,4 +179,20 @@ h3{
 .insta:hover{
 	opacity: 0.5;
 }
-
+.front,.back{
+	backface-visibility: hidden;
+	position: absolute;
+}
+.flip:hover{
+	transform: rotateY(180deg);
+}
+.back{
+	transform: rotateY(180deg);
+}
+h1{
+	font-family:Monospace;
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	text-shadow:  0 0 0.1em green,0 0 0.2em yellow,0 0 0.3em purple,0 0 0.4em purple;
+}
