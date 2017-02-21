@@ -5,6 +5,13 @@
 	height: 80%;
 	color: white;
 }
+#content-left-Albert{
+	float: left;
+	width: 17%;
+	background-color:black;
+	height: 1868px;
+	color: white;
+}
 #main{
 	float: right;
 	width: 83%;
@@ -37,6 +44,10 @@ h4{
 #bgi2{
 	background-color: black;
 	height: 725px;
+}
+#bgi22{
+	background-color: black;
+	height: 900px;
 }
 .flip{
 	width: 220px;
@@ -149,14 +160,6 @@ h3{
 	text-shadow:0 0 0.1em white,0 0 0.2em yellow,0 0 0.3em yellow,0 0 0.4em yellow;
 }
 
-.Quote1{
-	position:absolute;
-	color: white;
-	top: 100px;
-	left:50px;
-	visibility: visible;
-	opacity: 1;
-}
 .Asplit1:hover .Quote1{
 	opacity: 0.5;
 	visibility: visible;
