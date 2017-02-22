@@ -12,6 +12,17 @@
     <script src = "bootstrap-3.3.6-dist/js/easing.js"></script>
     <script src = "bootstrap-3.3.6-dist/js/scroll.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script >
+    $(document).ready(function(){
+      $(".link").click(function(event){
+        event.preventDefault();
+        var linkhref =$(this).attr("href");
+        $("body,html").animate({
+          scrollTop:$(linkhref).offset().top
+        });
+      });//ending of click function
+      });// ending of ready function
+    </script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -27,9 +38,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
 
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#bgi2">Quotes</a></li>
-        <li><a href="#bgi3">Contacts</a></li> 
+        <li class="active"><a class = "link" href="#bgi">Home</a></li>
+        <li><a class = "link" href="#bgi2">Quotes</a></li>
+        <li><a class = "link" href="#bgi3">Contacts</a></li> 
       </ul>
     </div>
   </div>
